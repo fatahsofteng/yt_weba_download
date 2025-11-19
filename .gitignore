@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+test_downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+downloads/
+test_downloads/
+html_responses/
+audio_downloads/
+batch_results_*.json
+test_results.json
+*.log
+cookies.txt
+config_cookies.txt
+config_headers.json
+
+# Except example configs
+!config_cookies.txt.example
+!config_headers.json.example
